@@ -1,0 +1,42 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@aws-amplify/api": "^1.2.2",
+    "@aws-amplify/pubsub": "^1.2.2",
+    "@babel/core": "v7",
+    "aws-amplify": "^1.2.4",
+    "aws-amplify-react": "^2.5.2",
+    "aws-amplify-react-native": "^2.2.2",
+    "expo": "^35.0.0",
+    "expo-facebook": "^7.0.0",
+    "expo-linear-gradient": "^7.0.1",
+    "graphql": "^0.13.0",
+    "lodash": "^4.17.15",
+    "metro": "^0.57.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-collapsible": "^1.5.1",
+    "react-native-elements": "^1.2.7",
+    "react-native-fs": "^2.16.1",
+    "react-native-sound": "^0.10.12",
+    "react-native-svg": "^9.13.3",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-voice": "^0.2.6",
+    "react-native-web": "^0.11.7",
+    "react-native-windows": "^0.57.2",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "@expo/webpack-config": "^0.8.1",
+    "babel-preset-expo": "^7.1.0"
+  },
+  "private": true
+}
